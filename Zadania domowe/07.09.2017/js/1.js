@@ -5,6 +5,7 @@ function zapisz() {
     
     tablica.push(form.login.value);
     tablica.push(form.password.value);
+
     
     alert(tablica);
 }
