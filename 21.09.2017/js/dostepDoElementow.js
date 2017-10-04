@@ -53,8 +53,48 @@ console.log(elImiona);
 elImiona[0].className = 'zielony';
 
 
-.//do domu.
+//do domu.
 //zmien wszystkie elementy w liscie z imionmi na czerwone, wykorzystaj metode
+
+var poczatekElem = document.getElementById('ks2');
+var poprzedniElem = poczatekElem.previousSibling;
+var nastepnyElem = poczatekElem.nextElementSibling;
+
+poczatekElem.classname = 'zielony';
+poprzedniElem.classname = 'zielony';
+nastepnyElem.classname = 'zielony';
+
+//firstchild,lastchild
+
+
+
+var lista = document.getElementsByTagName('ul')[2];
+console.log(lista);
+
+var pierwszy = lista.firstElementChild;
+var ostatni = lista.lastElementChild;
+
+pierwszy.className = 'czerwony';
+ostatni.className = 'czerwony';
+
+pierwszy.setAttribute('class','czerwony')//drugi sposob na zmiane klasy
+
+
+//zmien pierwszy element input na button i przypisz wartosc "wyslij"
+
+var input = document.getElementsByTagName('input')[0];
+console.log(input);
+
+input.setAttribute('type','button');
+//input.value = 'Wyślij'
+
+input.setAttribute('value', 'Wyślij');
+var link = document.getElementById('link');
+link.setAttribute('href','http://zsk.poznan.pl');
+
+
+
+
 
 
 

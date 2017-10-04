@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/rejestracja.css">
+</head>
+<body>
+  
+<fieldset>
+<legend>Rejestracja</legend>
+<form>
+<div id="komunikat"></div>
+    
+<!--autofocus-->    
+
+<input type="text" id="imie" placeholder="imię" autofocus><br><br>    
+<input type="text" id="nazwisko" placeholder="nazwisko"><br><br>    
+<input type="text" id="login" placeholder="login"><br><br>    
+<input type="text" id="mail1" placeholder="Podaj email"><br><br>    
+<input type="text" id="mail2" placeholder="Powtórz email" disabled><br><br>    
+<input type="password" id="pass1" placeholder="Podaj hasło"><br><br>
+<input type="password" id="pass2" placeholder="Powtórz hasło" disabled><br><br>
+<input type="date" id="data">Data urodzin<br><br>
+<input type = "checkbox" id="regulamin">Zatwierdź regulamin<br><br>
+</form>
+    
+<button id="przycisk" disabled>Wyślij</button>
+<button id="popraw">Popraw dane</button>
+    
+</fieldset>    
+    
+    
+    
+    
+    
+<script src="js/rejestracjaRegEx.js"></script>
+   
+</body>
+</html>
+
