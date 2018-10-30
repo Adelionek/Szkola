@@ -1,0 +1,7 @@
+#tabela1,th,td{
+    border: 1px solid teal;
+    width: 500px;
+    text-align: center;
+}
+
+table{border-collapse: collapse;}
