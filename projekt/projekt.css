@@ -1,0 +1,93 @@
+.menu .nav li:hover{
+   background-color: #ff6666;
+}
+.menu .nav li>a{
+    font-size: 19px;
+}
+.menu .nav li>a:hover{
+    color: white;
+}
+/*.menu .nav li>a{
+    color: black;
+}*/
+
+.row img{
+    position: relative;
+    margin-left: 15%;
+    width: 70%;
+    height: 90%;
+}
+.row>div>span{
+    text-align: center;
+    display: block;
+}
+
+.row .col-lg-4{
+    border-right: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    padding-top: 10px;
+}
+.row .col-lg-4:last-child{
+    border-right: none;
+}
+
+.row:first-child{
+    border-left: 1px solid red;
+}
+
+.container::after{
+    content: " ";
+}
+
+.eror {
+    color:red;
+}
+
+.footer{
+    bottom: 0px;
+    width: 100%;
+    background-color:#f2f2f2;
+    padding-bottom: 15px;
+}
+
+.html{
+    height: 100%;
+}
+
+.body{
+    height: 100%;
+}
+
+.logo{
+    width: 150px;
+    height:50px;
+}
+
+#opis div{
+    border-bottom: 1px solid lightgray;
+    padding: 20px;
+}
+
+#map {
+        width: 100%;
+        height: 400px;
+        background-color: grey; 
+}
+
+
+.panel{
+    margin-bottom: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+.panel-heading{
+    padding: 10px 15px;
+    background-color: #f5f5f5;
+    border-bottom: 1px solid #ddd;
+    border-top-right-radius: 3px;
+    border-top-left-radius: 3px;
+}
+#kontakt{
+    padding: 15px;
+}
